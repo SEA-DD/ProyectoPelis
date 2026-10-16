@@ -1,0 +1,15 @@
+# Bitácora de decisiones y uso de LLM
+
+# Bitácora de desarrollo: Listas enlazadas en Python
+
+| # | Paso | Qué pedí al LLM | Qué aceptamos | Qué corregimos / aprendimos | Prueba que pasó |
+|---:|---|---|---|---|---|
+| 1 | Nodo + ListaEnlazada + insertar_en / insertar_final | Crear una lista simplemente enlazada con funciones para insertar elementos al inicio y al final. | La estructura de las clases `Nodo` y `ListaEnlazada`. | Aprendimos cómo conectar los nodos mediante referencias e insertar elementos en distintas posiciones. | Se insertaron elementos al inicio y al final y se mostró la lista correctamente. |
+| 2 | insertar_ordenado (por año) | Crear una función para insertar elementos manteniendo la lista ordenada por año. | La comparación de años para encontrar la posición correcta. | Corregimos los casos de inserción al inicio y al final de la lista. | Los elementos quedaron ordenados por año después de varias inserciones. |
+| 3 | eliminar_en / eliminar_titulo | Crear funciones para eliminar elementos por posición o por título. | La búsqueda del nodo y la reconexión de los enlaces. | Aprendimos a eliminar nodos sin perder los demás elementos y a manejar títulos inexistentes. | Se eliminaron elementos por posición y por título correctamente. |
+| 4 | contar_y_sumar iterativa y recursiva | Crear funciones para contar elementos y sumar sus valores con ciclos y recursividad. | Las dos soluciones para comparar sus resultados. | Aprendimos las diferencias entre la iteración y la recursividad. | Ambas versiones devolvieron la misma cantidad de elementos y la misma suma. |
+| 5 | catalogo.py: carga, limpieza y problemas 1-3 | Organizar el código para cargar y limpiar los datos del catálogo y resolver los primeros tres problemas. | La separación de funciones y la validación de los datos. | Aprendimos a identificar datos incompletos o repetidos y a organizar mejor el código. | El catálogo se cargó y las funciones de los problemas 1 al 3 funcionaron correctamente. |
+| 6 | medicion.py y análisis de complejidad | Medir el tiempo de ejecución de las operaciones y analizar su complejidad. | Las mediciones y el análisis de las operaciones principales. | Aprendimos a identificar complejidades como `O(1)`, `O(n)` y `O(n²)`. | Se ejecutaron las mediciones y se obtuvieron tiempos para comparar las operaciones. |
+| 7 | Modificaciones de la defensa: invertir, doble, circular y concatenar | Modificar la lista para invertirla, convertirla en doble o circular y concatenar dos listas. | Las implementaciones que conservaron el orden y las conexiones de los nodos. | Aprendimos las diferencias entre listas simples, dobles y circulares, así como la concatenación de listas. | Se probaron las modificaciones y se verificó el recorrido de los elementos. |
+
+**Nota:** Los resultados de las pruebas deben verificarse con la ejecución real del programa antes de entregar la bitácora.
